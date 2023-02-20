@@ -1,0 +1,85 @@
+
+body{
+    width: 100%;
+    margin: 0;
+    
+}
+.list{
+    color: rgb(52, 156, 226);
+}
+.parant{
+    display: flex;
+    background-color:rgb(232, 232, 231);
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    justify-content: space-around;
+
+    
+
+
+}
+.plus{
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#add{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    font-size: large 
+
+}
+
+.child{
+    color: deepskyblue;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+    
+    padding: 20px 0 0 0;
+
+}
+.checkbox1{
+     color: rgb(173, 173, 173);
+     text-decoration: line-through;
+     line-height: 2;
+}
+.checkbox2{
+    color: black;
+    line-height: 2;
+}
+
+#child1{
+    position: relative;
+    left: 80px
+
+}
+
+#child2{
+    position: relative;
+    left: 155px
+}
+
+#child3{
+    position: relative;
+    left: 230px
+}
+
+#child4{
+    position: relative;
+    top: 300px;
+    
+    right: 630px;
+}
+#child5{
+    position: relative;
+    top: 300px;
+    right: 550px;
+
+}

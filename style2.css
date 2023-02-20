@@ -1,0 +1,62 @@
+.list{
+    color: rgb(52, 156, 226);
+}
+.parant{
+    background-color:rgb(232, 232, 231);
+    display: flex;
+    width: 99%;
+    height: 530px;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+.arrow{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+#arrow{
+    position: relative;
+    top: 25px;
+    right: 100px;
+    font-size: larger;
+}
+#link{
+    text-decoration: none;
+}
+.plus{
+    color: white;
+    background-color: rgb(17, 105, 221);
+    border-radius: 50%;
+}
+
+#add{
+    position: relative;
+    top: 25px;
+    font-size: larger;
+}
+.child{
+    color: deepskyblue;
+    background-color: white;
+border-radius: 10px;
+width: 330px;
+height: 200px;
+position: absolute;
+    top: 180px;
+    right: 41%;
+    line-height: 2;
+    font-size: larger;
+    text-align: center;
+   
+}
+
+
+.checkbox1{
+    color: gray;
+    text-decoration: line-through;
+    
+}
+.checkbox2{
+    color: black;
+    
+}

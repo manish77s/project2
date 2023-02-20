@@ -1,0 +1,43 @@
+body{
+    background-image: url(./back.jpg);
+    filter: blur(3%);
+    background-repeat: no-repeat;
+}
+.parant{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000d1;
+    flex-flow: row wrap;
+}
+
+
+
+.box{
+    border-radius: 5px;
+    height: 170px;
+    width: 300px;
+    background-color: white;
+}
+.learn{
+    border: 1px solid #808080ab;
+    color: grey;
+    width: 80%;
+    height: 20px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    border-radius: 2px;
+}
+.add{
+    color: white;
+    background-color: #0340ed;
+    border-radius: 3px;
+    position: relative;
+    top: 55px;
+    right: 90px;
+    height: 25px;
+    
+}
